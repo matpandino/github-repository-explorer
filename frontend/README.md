@@ -34,7 +34,7 @@ Para rodar em modo de desenvolvimento:
 git clone https://github.com/matpandino/github-repository-explorer.git
 
 // Vá para o diretório do front-end
-cd github-explorer/frontend/
+cd github-repository-explorer/frontend/
 
 // Instale as dependências
 
@@ -60,7 +60,7 @@ Para prosseguir será necessário Docker instalado na sua máquina.
 git clone https://github.com/matpandino/github-repository-explorer.git
 
 // Vá para o diretório do front-end
-cd github-explorer/frontend/
+cd github-repository-explorer/frontend/
 
 // Instale as dependências
 
