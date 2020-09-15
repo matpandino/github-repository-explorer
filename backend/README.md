@@ -17,7 +17,7 @@ Para rodar em modo de desenvolvimento:
 git clone https://github.com/matpandino/github-repository-explorer.git
 
 // Abra o backend na IDE de sua escolha (IntelliJ, Eclipse, etc.) 
-repositório: github-explorer/backend/
+repositório: github-repository-explorer/backend/
 
 // Execute o projeto
 ```
@@ -31,7 +31,7 @@ Para prosseguir será necessário Docker instalado na sua máquina.
 git clone https://github.com/matpandino/github-repository-explorer.git
 
 // Vá para o diretório do front-end
-cd github-explorer/backend/
+cd github-repository-explorer/backend/
 
 // Gere o JAR do projeto
 ./mvnw clean package
