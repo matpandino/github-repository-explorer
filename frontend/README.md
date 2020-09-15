@@ -64,7 +64,21 @@ cd github-repository-explorer/frontend/
 yarn install
 // npm
 npm install
+```
 
+#### Via Imagem no DockerHub já existente
+
+```
+// Baixe a imagem do repositório
+docker pull matpandino/github-explorer-frontend:latest
+
+// Rode a imagem do Projeto
+docker run -d -p 80:80 -t matpandino/github-explorer-frontend:latest
+```
+
+#### Localmente
+
+```
 // Gere a build do projeto
 
 // yarn
