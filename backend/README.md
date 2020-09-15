@@ -1,9 +1,3 @@
-<p align="center">
-  <a>
-    <img alt="Github Repository Explorer" title="Github Repository Explorer" src=".github/logo.svg" width="380">
-  </a>
-</p>
-
 # Github Repository Explorer Backend 
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Github%20Explorer%20Api&uri=https%3A%2F%2Fgithub.com%2Fmatpandino%2Fgithub-repository-explorer%2Ftree%2Fmaster%2Fbackend%2F.github%2FInsomnia_github-repository-explorer.json)
