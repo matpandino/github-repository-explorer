@@ -30,7 +30,7 @@ Para prosseguir será necessário Docker instalado na sua máquina.
 // Clone o repositório
 git clone https://github.com/matpandino/github-repository-explorer.git
 
-// Vá para o diretório do front-end
+// Vá para o diretório do back-end
 cd github-repository-explorer/backend/
 
 // Gere o JAR do projeto
