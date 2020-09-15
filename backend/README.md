@@ -33,6 +33,22 @@ git clone https://github.com/matpandino/github-repository-explorer.git
 // Vá para o diretório do back-end
 cd github-repository-explorer/backend/
 
+```
+
+#### Via Imagem no DockerHub já existente
+
+```
+// Baixe a imagem do repositório
+docker pull matpandino/github-explorer-api:latest
+
+// Rode a imagem do Projeto
+docker run -d -p 8080:8080 -t matpandino/github-explorer-api:latest
+```
+
+#### Localmente
+
+```
+
 // Gere o JAR do projeto
 ./mvnw clean package
 
