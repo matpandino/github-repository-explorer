@@ -6,16 +6,12 @@
 
 # Github Repository Explorer Frontend
 
-<br>
-
 ## Features
 
 - Pesquise repositórios do GitHub;
 - Veja o repositório individualmente e outros projetos do autor;
 - Favorite os repositórios e depois veja eles em "Repositórios Favoritos";
 - Repositórios favoritados são salvos localmente.
-
-<br>
 
 ## Instalação
 
