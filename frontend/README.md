@@ -29,8 +29,10 @@ Para rodar em modo de desenvolvimento:
 // Clone o repositório
 git clone https://github.com/matpandino/github-repository-explorer.git
 
+
 // Vá para o diretório do front-end
 cd github-repository-explorer/frontend/
+
 
 // Instale as dependências
 
@@ -38,6 +40,7 @@ cd github-repository-explorer/frontend/
 yarn install
 // npm
 npm install
+
 
 // Rodar a aplicação
 
@@ -51,20 +54,6 @@ npm start
 
 Para prosseguir será necessário Docker instalado na sua máquina.
 
-```
-// Clone o repositório
-git clone https://github.com/matpandino/github-repository-explorer.git
-
-// Vá para o diretório do front-end
-cd github-repository-explorer/frontend/
-
-// Instale as dependências
-
-// yarn
-yarn install
-// npm
-npm install
-```
 
 #### Via Imagem no DockerHub já existente
 
@@ -78,7 +67,24 @@ docker run -d -p 80:80 -t matpandino/github-explorer-frontend:latest
 
 #### Localmente
 
+
 ```
+// Clone o repositório
+git clone https://github.com/matpandino/github-repository-explorer.git
+
+
+// Vá para o diretório do front-end
+cd github-repository-explorer/frontend/
+
+
+// Instale as dependências
+
+// yarn
+yarn install
+// npm
+npm install
+
+
 // Gere a build do projeto
 
 // yarn
@@ -86,8 +92,10 @@ yarn build
 // npm
 npm build
 
+
 // Crie a imagem Docker
 docker build --rm -f Dockerfile -t github-repository-explorer:latest .
+
 
 // Rode a imagem
 docker run --rm -d -p 80:80 github-repository-explorer:latest
